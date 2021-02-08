@@ -1,0 +1,11 @@
+{
+  "verbose": false,
+  "watch": [
+    "./src"
+  ],
+  "ignore": [
+    "./test"
+  ],
+  "ext": "ts, json",
+  "exec": "npx electron --require ts-node/register ./src/main.ts"
+}
